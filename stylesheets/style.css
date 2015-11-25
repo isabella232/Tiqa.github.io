@@ -20,14 +20,27 @@ body {
 }
 img#logo{
     width: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 p#domain {
     margin-bottom: 40px;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    font-weight: 200;
 }
 p#moreInfo {
     font-size: 1.3em;
+    margin-bottom: 20px;
+}
+p#contact{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+p#contact a{
+    font-weight: 600;
+    color: white;
+}
+div#links img {
+    height: 64px;
 }
 footer {
     bottom: 0;
