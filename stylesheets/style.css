@@ -1,16 +1,17 @@
+@import 'fonts/raleway/raleway.css';
+
 html {
     height: 100%;
     background-color: #4b1762;
 }
 body {
     padding-top: 20px;
+    padding-bottom: 120px;
     background-color: #4b1762;
     min-height: 100%;
     color: white;
     position: relative;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400; 
+    font-family: "ralewaymedium", serif;
     font-size: 13px;
 }
 .Centered {
@@ -18,34 +19,54 @@ body {
     margin: 0 auto 0 auto;
     text-align: center;
 }
+.Bold {
+    font-family: "ralewayblack", serif;
+}
+h1 {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+li {
+    font-size: 1.2em;
+    list-style: none;
+}
+a {
+    color: white;
+    font-family: "ralewayblack", serif;
+}
+
 img#logo {
-    width: 500px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+p#contact{
+    font-size: 1.3em;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 p#domain {
     margin-bottom: 40px;
     font-size: 1.7em;
-    font-weight: 200;
 }
 p#moreInfo {
     font-size: 1.3em;
     margin-bottom: 20px;
 }
-p#contact{
-    font-size: 1.3em;
-    margin-bottom: 20px;
-}
-p#contact a{
-    font-weight: 600;
-    color: white;
-}
 div#links img {
     height: 64px;
 }
+
 footer {
     bottom: 0;
     position: absolute;
     height: 100px;
     width: 100%;
     margin-top: 40px;
+    font-size: 1.1em;
 }
