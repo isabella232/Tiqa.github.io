@@ -175,7 +175,7 @@ function ribbon (options) {
   function relative () {
     switch (this.availability) {
       case AVAILABLE: return 'Disponible'
-      case SOON: return 'Disponible dans ' + this.monthShort()
+      case SOON: return 'Disponible en ' + this.monthShort()
       case UNAVAILABLE: return 'Actuellement en mission'
       case PRIVATE: return 'Erreur'
     }
