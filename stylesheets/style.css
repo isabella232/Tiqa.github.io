@@ -23,7 +23,7 @@ body {
     font-family: "ralewayblack", serif;
 }
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     display: block;
     text-align: center;
     margin-bottom: 20px;
@@ -42,7 +42,7 @@ a {
 }
 
 img#logo {
-    width: 400px;
+    width: 300px;
     margin-bottom: 20px;
 }
 #sous-titre {
