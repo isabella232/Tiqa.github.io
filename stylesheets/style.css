@@ -45,6 +45,10 @@ img#logo {
     width: 400px;
     margin-bottom: 20px;
 }
+#sous-titre {
+    font-family: "ralewaylight", serif;
+    font-size: 0.8em;
+}
 p#contact{
     font-size: 1.3em;
     margin-top: 40px;
