@@ -74,3 +74,7 @@ footer {
     margin-top: 40px;
     font-size: 1.1em;
 }
+
+.availability-ribbon {
+    display: block !important;
+}
