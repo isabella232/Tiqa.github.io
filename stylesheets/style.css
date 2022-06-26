@@ -30,6 +30,10 @@ h1 {
 }
 h2 {
     margin-top: 20px;
+    font-size: 2em;
+}
+h3 {
+    margin-top: 20px;
     font-size: 1.4em;
 }
 li {
